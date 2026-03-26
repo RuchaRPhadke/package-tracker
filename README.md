@@ -140,3 +140,4 @@ Team Members:
 
 Conclusion:
 This project demonstrates how DevOps practices can be applied to automate and streamline the software development lifecycle, ensuring faster and more reliable delivery.
+Project completed as part of DevOps mini project.
