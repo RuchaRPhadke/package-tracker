@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify
 import time
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
@@ -14,7 +14,7 @@ def get_status(order_time):
 
     if elapsed < 60:
         return "Order Placed"
-    elif elapsed < 120:
+    if elapsed < 120:
         return "Shipped"
     elif elapsed < 180:
         return "Out for Delivery"

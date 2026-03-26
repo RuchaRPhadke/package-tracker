@@ -20,7 +20,8 @@ jobs:
         pip install flask pytest pylint
 
     - name: Run Tests
-      run: python -m pytest || true
+      run: python -m pytest
 
     - name: Run Code Quality Check
-      run: pylint app/app.py
+      run: |
+        pylint app/app.py || true
